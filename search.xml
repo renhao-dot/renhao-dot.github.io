@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="2021/01/22/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/"/>
+      <url>2021/01/22/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: 一些常用的网络协议及它的中文含义<br>date: 2020-11-13 19:02:46<br>tags:<br>–<br>IOT的中文含义：物联网</p><p>RFID的中文含义：射频识别技术</p><p>MEMS的中文含义：微机电系统</p><p>IC卡的中文含义：集成电路卡</p><p>TCP的中文含义：传输控制协议</p><p>MAC的中文含义：介质访问控制层</p><p>WSN的中文含义：无线传感网络</p><p>URI的中文含义：统一资源表示</p><p>HTTP的中文含义：超文本传送协议</p><p>FTP的中文含义：文件传输协议</p><p>IP的中文含义：网络传输协议</p><p>GIS的中文含义：地理信息系统</p><p>GPS的中文含义：全球定位系统</p><p>CPU的中文含义：中央处理器</p><p>AI的中文含义：人工智能</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>位数字的密码字典</title>
+      <link href="2021/01/22/%E4%BD%8D%E6%95%B0%E5%AD%97%E7%9A%84%E5%AF%86%E7%A0%81%E5%AD%97%E5%85%B8/"/>
+      <url>2021/01/22/%E4%BD%8D%E6%95%B0%E5%AD%97%E7%9A%84%E5%AF%86%E7%A0%81%E5%AD%97%E5%85%B8/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如果测试没有需求或模糊怎么办</title>
+      <link href="2021/01/21/%E5%A6%82%E6%9E%9C%E6%B5%8B%E8%AF%95%E6%B2%A1%E6%9C%89%E9%9C%80%E6%B1%82%E6%88%96%E6%A8%A1%E7%B3%8A%E6%80%8E%E4%B9%88%E5%8A%9E/"/>
+      <url>2021/01/21/%E5%A6%82%E6%9E%9C%E6%B5%8B%E8%AF%95%E6%B2%A1%E6%9C%89%E9%9C%80%E6%B1%82%E6%88%96%E6%A8%A1%E7%B3%8A%E6%80%8E%E4%B9%88%E5%8A%9E/</url>
+      
+        <content type="html"><![CDATA[<p>1、参考市面上同类型的产品的试下情况<br>2、收集整理已有需求<br>3、和产品经理逐条确认</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/01/20/hello-world/"/>
+      <url>2021/01/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是中断？中断的作用？</title>
+      <link href="2020/12/04/%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E6%96%AD%EF%BC%9F%E4%B8%AD%E6%96%AD%E7%9A%84%E4%BD%9C%E7%94%A8%EF%BC%9F/"/>
+      <url>2020/12/04/%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E6%96%AD%EF%BC%9F%E4%B8%AD%E6%96%AD%E7%9A%84%E4%BD%9C%E7%94%A8%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>中断即打断，实至CPU再执行当前程序时，由于系统出现了某种需要处理的紧急情况，CPU暂停正在执行的程序，转而去执行另一段特殊程序来处理的出现的紧急事务，处理结束后CPU自动返回到原先暂停的程序中去继续执行，这种执行过程由于外界的的原因被中间打断的情况成为中断。<br>中断的作用：<br>中断使得计算机系统具备应对对处理突发事件的能力，提高了CPU的工作效率，如果没有中断系统，CPU就只能按照原来的程序编写的先后顺序，对各个外设进行查询和处理，即轮询工作方式，轮询方法貌似公平，但实际工作效率却很低，却不能及时响应紧急事件。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用快递来形象化接口收发包的流程步骤</title>
+      <link href="2020/12/02/%E7%94%A8%E5%BF%AB%E9%80%92%E6%9D%A5%E5%BD%A2%E8%B1%A1%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%94%B6%E5%8F%91%E5%8C%85%E7%9A%84%E6%B5%81%E7%A8%8B%E6%AD%A5%E9%AA%A4/"/>
+      <url>2020/12/02/%E7%94%A8%E5%BF%AB%E9%80%92%E6%9D%A5%E5%BD%A2%E8%B1%A1%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%94%B6%E5%8F%91%E5%8C%85%E7%9A%84%E6%B5%81%E7%A8%8B%E6%AD%A5%E9%AA%A4/</url>
+      
+        <content type="html"><![CDATA[<p>1、请求的接口URL（对方的收货地址）<br>2、设置http方法（选择哪家作为快递公司）<br>3、设置头域（填写快递上单的个人信息）<br>4、填写要请求的参数（将寄送的东西完整打包好）<br>5、HTTP状态码（对方式否成功收到货品）<br>6、收到接口的响应（将已签收信息返还到寄送者）<br>7、检查返回头域（收货人查看快递信息，是否准确为自己的东西）<br>8、查看返回主体内容（查看包裹中有哪些内容）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>postman发请求四大要素</title>
+      <link href="2020/12/01/postman%E5%8F%91%E8%AF%B7%E6%B1%82%E5%9B%9B%E5%A4%A7%E8%A6%81%E7%B4%A0/"/>
+      <url>2020/12/01/postman%E5%8F%91%E8%AF%B7%E6%B1%82%E5%9B%9B%E5%A4%A7%E8%A6%81%E7%B4%A0/</url>
+      
+        <content type="html"><![CDATA[<p>1、请求url<br>2、请求的方法<br>3、请求的头域<br>4、请求的参数</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>接口测试流程</title>
+      <link href="2020/11/28/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B/"/>
+      <url>2020/11/28/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>1、制定测试文档（获取接口的相关参数信息）<br>可以通过抓包获取接口的基本调用和返回数据<br>2、接口用例设计<br>根据获取到的接口信息，按照接口测试用例设计方法，设计参数和预期返回结果<br>3、接口发包<br>使用工具或者编程向接口传递参数<br>4、返回信息验证<br>获取接口的返回结果，进行解析和验证</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>工作和网络中常用到的端口有哪些</title>
+      <link href="2020/11/26/%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%BD%91%E7%BB%9C%E4%B8%AD%E5%B8%B8%E7%94%A8%E5%88%B0%E7%9A%84%E7%AB%AF%E5%8F%A3%E6%9C%89%E5%93%AA%E4%BA%9B/"/>
+      <url>2020/11/26/%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%BD%91%E7%BB%9C%E4%B8%AD%E5%B8%B8%E7%94%A8%E5%88%B0%E7%9A%84%E7%AB%AF%E5%8F%A3%E6%9C%89%E5%93%AA%E4%BA%9B/</url>
+      
+        <content type="html"><![CDATA[<p>1、80端口，HTTP说明：用于网页浏览。其中漏洞木马Executor开放此端口。<br>2、1433端口，SQL说明：Microsoft的SQL服务开放端口<br>3、4000端口，QQ客户端说明：腾讯QQ客户端开放此端口。<br>4、8000端口，OICQ说明：腾讯服务器端开放此端口。<br>5、8080端口，代理端口：www代理开放此端口。</p><p>IIS（HTTP）：80<br>SQLServer：1433<br>Oracle：1521<br>MySQL：3306<br>FTP：21<br>SSH：22<br>Tomcat：8080</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nmap常用的四个命令</title>
+      <link href="2020/11/24/nmap%E5%B8%B8%E7%94%A8%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%91%BD%E4%BB%A4/"/>
+      <url>2020/11/24/nmap%E5%B8%B8%E7%94%A8%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>1、nmap 主机地址（查看主机地址的开放端口及服务信息）</p><p>2、nmap –scipt=vuln 主机地址（漏洞扫描，查看主机或网段中常见的漏洞）</p><p>3、nmap -sV –script ssl-enum-ciphers -p 443 主机地址（查看ssl的版本信息，是否支持TLS低版本信息等）</p><p>4、nmap -sV 主机地址（目标主机提供的服务版本检测）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是端口？</title>
+      <link href="2020/11/21/%E4%BB%80%E4%B9%88%E6%98%AF%E7%AB%AF%E5%8F%A3%EF%BC%9F/"/>
+      <url>2020/11/21/%E4%BB%80%E4%B9%88%E6%98%AF%E7%AB%AF%E5%8F%A3%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>端口分为虚拟端口与物理端口，虚拟端口可见，物理端口不可见，虚拟端口是指计算机内部与交换机路由器内部的端口，物理端口通常是一些计算机的硬件端口。</p><p>常见虚拟端口：80端口、21端口、23端口等</p><p>常见物理端口：网口、内存插口、电源插口等</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是接口？</title>
+      <link href="2020/11/19/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A5%E5%8F%A3%EF%BC%9F/"/>
+      <url>2020/11/19/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A5%E5%8F%A3%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>接口是一种虚拟化抽象化的实物，一般是指前端与后端信息相互交互的传递媒介，在工作中我们也会常常接触到软件测试、接口测试、端口扫描相关方面的内容，在程序中有举足轻重的作用。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>接口测试常用的测试工具</title>
+      <link href="2020/11/18/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E5%B8%B8%E7%94%A8%E7%9A%84%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/"/>
+      <url>2020/11/18/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E5%B8%B8%E7%94%A8%E7%9A%84%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<p>Postman 一款非常流行的 API 调试工具。其实，开发人员用的更多。因为测试人员做接口测试会有更多选择，例如 Jmeter、soapUI 等。<br>不过，对于开发过程中去调试接口，Postman 确实足够的简单方便，而且功能强大。</p><p>作者：Parry<br>链接：<a href="https://www.imooc.com/article/266175">https://www.imooc.com/article/266175</a><br>来源：慕课网<br>本文原创发布于慕课网 ，转载请注明出处，谢谢合作</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python一些常用库镜像资源</title>
+      <link href="2020/11/15/python%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93%E9%95%9C%E5%83%8F%E8%B5%84%E6%BA%90/"/>
+      <url>2020/11/15/python%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93%E9%95%9C%E5%83%8F%E8%B5%84%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<p>python标准库：<a href="http://docs.python.org/3/library/index.html">http://docs.python.org/3/library/index.html</a><br>python HOWTO:<a href="http://docs.python.org/3/howto/index.html">http://docs.python.org/3/howto/index.html</a><br>有以下的常用的国内源提供你选择:<br>中国科技大学： <a href="https://pypi.mirrors.ustc.edu.cn/simple/">https://pypi.mirrors.ustc.edu.cn/simple/</a><br>清华大学 ：<a href="https://pypi.tuna.tsinghua.edu.cn/simple/">https://pypi.tuna.tsinghua.edu.cn/simple/</a><br>中国科学技术大学： <a href="http://pypi.mirrors.ustc.edu.cn/simple/">http://pypi.mirrors.ustc.edu.cn/simple/</a><br>阿里云 ：<a href="http://mirrors.aliyun.com/pypi/simple/">http://mirrors.aliyun.com/pypi/simple/</a><br>豆瓣(douban) ：<a href="http://pypi.douban.com/simple/">http://pypi.douban.com/simple/</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>笔记本的CPU型号</title>
+      <link href="2020/11/07/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9A%84CPU%E5%9E%8B%E5%8F%B7/"/>
+      <url>2020/11/07/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9A%84CPU%E5%9E%8B%E5%8F%B7/</url>
+      
+        <content type="html"><![CDATA[<p>笔记本电脑的CPU型号有哪些：奔腾（Pentium) 486处理器、至强（Xeon) E5处理器、骁龙（Snapdragon) 835处理器、酷睿（Core) i7处理器</p><p>当前笔记本电脑常用的CPU型号：酷睿（Core）i7处理器</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>xss跨脚本攻击原理、危害及修复建议</title>
+      <link href="2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/"/>
+      <url>2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/</url>
+      
+        <content type="html"><![CDATA[<p>原理：xss攻击是指对web程序中恶意植入代码，对网页数据、浏览信息、登录操作进行记录，获取不法信息</p><p>危害：</p><p>1、钓鱼欺骗：最典型的就是利用目标网站的反射型跨站脚本漏洞将目标网站重定向到钓鱼网站，或者通过注入钓鱼JavaScript脚本以监控目标网站的表单输入，甚至攻击者基于DHTML技术发起更高级的钓鱼攻击。</p><p>2、网站挂马：跨站时，攻击者利用Iframe标签嵌入隐藏的恶意网站，将被攻击者定向到恶意网站上、或弹出恶意网站窗口等方式，进行挂马。</p><p>3、身份盗用：Cookie是用户对于特定网站的身份验证标志，XSS攻击可以盗取用户的cookie，从而利用该cookie盗取用户对该网站的操作权限。</p><p>4、盗取网站用户信息：当窃取到用户cookie从而获取到用户身份时，攻击者可以盗取到用户对网站的操作权限，从而查看用户隐私信息。</p><p>5、垃圾信息发送：在社交网站社区中，利用XSS漏洞借用被攻击者的身份发送大量的垃圾信息给特定的目标群。</p><p>6、劫持用户Web行为：一些高级的XSS攻击甚至可以劫持用户的Web行为，从而监视用户的浏览历史、发送与接收的数据等等。</p><p>7、XSS蠕虫：借助XSS蠕虫病毒还可以用来打广告、刷流量、挂马、恶作剧、破坏数据、实施DDoS攻击等。</p><p>8、获取用户的个人信息、银行卡密码、私密隐私</p><p>9、网页瘫痪无法正常运行</p><p>修复建议：1：首先对于我们而言应该要谨记浏览正规的网站，防止不法分子有机可乘</p><p>2、网页数据多次过滤</p><p>3、对危险代码、字符串严格控制，对数据发起的请求进行验证</p><p>4、其次是开发人员应注意编码的严禁性</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一个简单的java程序</title>
+      <link href="2020/11/02/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84java%E7%A8%8B%E5%BA%8F/"/>
+      <url>2020/11/02/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84java%E7%A8%8B%E5%BA%8F/</url>
+      
+        <content type="html"><![CDATA[<p>打印hello world</p><p>public class App<br>{<br>    public static void main(String[] args)<br>    {<br>        System.out.print(“Hello world”);<br>    }<br>}</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>sql注入原理、危害及修复建议</title>
+      <link href="2020/10/25/sql%E6%B3%A8%E5%85%A5%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/"/>
+      <url>2020/10/25/sql%E6%B3%A8%E5%85%A5%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/</url>
+      
+        <content type="html"><![CDATA[<p>原理：sql注入，简而言之就是攻击者将一个sql语句或字符注入到一个web应用程序中使其能够进行任意访问，web应用程序没有强大的功能或者说是不严谨，在对用户输入的数据的合法性没有进行严格的筛选和过滤，导致攻击者利用这一漏洞进行入侵。</p><p>危害：1、获取企业、个人未经授权的隐私信息，一些机密数据<br>2、网页内容伪造篡改<br>3、数据库、服务器、网络（内网、局域网）受到攻击，严重时可导致服务器瘫痪，无法正常运行</p><p>修复建议：1、对数据库进行严格监控<br>2、对用户提交数据信息严格把关，多次筛选过滤<br>3、用户内数据内容进行加密<br>4、代码层最佳防御sql漏洞方案：采用sql语句预编译和绑定变量，是防御sql注入的最佳方法</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漏洞之拒绝服务</title>
+      <link href="2020/10/22/%E6%BC%8F%E6%B4%9E%E4%B9%8B%E6%8B%92%E7%BB%9D%E6%9C%8D%E5%8A%A1/"/>
+      <url>2020/10/22/%E6%BC%8F%E6%B4%9E%E4%B9%8B%E6%8B%92%E7%BB%9D%E6%9C%8D%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<p>定义：拒绝服务呢是指通过大量的垃圾信息或干扰信息的方法，导致服务器无法向正常用户提供服务的现象</p><p>基本原理：利用用户的域名向数以千计的服务器发送请求，由于返回目标的数据远远大于请求的数据，数据过于庞大， 解析时间过短，以至于遭受到DDOS攻击，，被利用域名的服务器也至于受到瘫痪的状态</p><p>攻击原理：利用域名解析，使其服务器无法正常的运行，拒绝正常的接入</p><p>修补建议： 1、服务器请求验证时需要验证DNS用户身份<br>2、防火墙防御。防火墙是防御DoS攻击最有效的方法。很多厂商的防火墙都注入了专 门针对DoS攻击的功能。防火墙中防御DoS攻击的主流技术主要有两种：连接监控和 同步网关。<br>3、路由器防御。路由器作为整个互联网的组网设备，可以通过路由器一些访问控制和 QoS设置功能来达到防御DoS的目的。 [1]<br>4、系统防御。每个操作系统都有一些参数用来设置TCP/IP的运行性能，修改这些参数 用来防御DoS也有一定效果，但是这只是辅助措施。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python爬虫需要安装的库模块</title>
+      <link href="2020/10/19/python%E7%88%AC%E8%99%AB%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85%E7%9A%84%E5%BA%93%E6%A8%A1%E5%9D%97/"/>
+      <url>2020/10/19/python%E7%88%AC%E8%99%AB%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85%E7%9A%84%E5%BA%93%E6%A8%A1%E5%9D%97/</url>
+      
+        <content type="html"><![CDATA[<p>1、requests（获取请求）<br>2、BeautifulSoup（bs4）(解析器，用来解释网页数据）<br>3、lxml<br>4、beautifulsoup<br>5、pyquery 网页解析库 说是比beautiful 好用，语法和jquery非常像。(解析器，用来解释网页数据）<br>6、pymysql 存储库。操作mysql数据的<br>7、pymongo 操作MongoDB 数据库<br>8、redis 非关系型数据库<br>9、jupyter 在线记事本<br>10、selenium 自动化会用到<br>11、xpath<br>12、scrapy</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python爬虫步骤流程</title>
+      <link href="2020/10/15/python%E7%88%AC%E8%99%AB%E6%AD%A5%E9%AA%A4%E6%B5%81%E7%A8%8B/"/>
+      <url>2020/10/15/python%E7%88%AC%E8%99%AB%E6%AD%A5%E9%AA%A4%E6%B5%81%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>1、获取请求<br>2、网页加载<br>3、得到响应<br>4、进行数据存储<br>注释：①确定目标，获取目标url，发起请求。（发起请求）</p><p>②等待服务器返回数据，通过浏览器加载网页。（发起请求）</p><p>③从网页中找到自己需要的数据（文本、图片、文件等等）。（解析请求）</p><p>④保存自己需要的数据。（数据存储）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python环境搭建及运行过程中常遇到的错误</title>
+      <link href="2020/10/11/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%B8%B8%E9%81%87%E5%88%B0%E7%9A%84%E9%94%99%E8%AF%AF/"/>
+      <url>2020/10/11/python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%B8%B8%E9%81%87%E5%88%B0%E7%9A%84%E9%94%99%E8%AF%AF/</url>
+      
+        <content type="html"><![CDATA[<p>1、expected an indeted block错误解决，说明此处需要字符缩进，安tab或空格键<br>2、invalid character in identifier（标识中的无效字符，存在字符键的错误，应吧中文字符换成英文字符）<br>3、No module named ‘tensorflow（模块名称）’这里的意思呢是指python中没有的模块需要我们进行安装<br>4、未进行环境变量的配置<br>5、没有安装所需要的库</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自动化测试工具有哪些</title>
+      <link href="2020/10/07/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7%E6%9C%89%E5%93%AA%E4%BA%9B/"/>
+      <url>2020/10/07/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7%E6%9C%89%E5%93%AA%E4%BA%9B/</url>
+      
+        <content type="html"><![CDATA[<p>1、Appium<br>官网：<a href="http://appium.io/">http://appium.io</a><br>AppUI自动化测试<br>Appium 是一个移动端自动化测试开源工具，支持iOS 和Android 平台，支持Python、Java 等语言，即同一套Java 或Python 脚本可以同时运行在iOS 和Android平台，Appium 是一个C/S 架构，核心是一个 Web 服务器，它提供了一套 REST 的接口。当收到客户端的连接后，就会监听到命令，然后在移动设备上执行这些命令，最后将执行结果放在 HTTP 响应中返还给客户端。<br>License：免费</p><p>2、Selenium<br>官网：<a href="https://www.seleniumhq.org/download/">https://www.seleniumhq.org/download/</a><br>WebUI自动化测试<br>Selenium是一个用于Web应用程序测试的工具，Selenium已经成为Web自动化测试工程师的首选。Selenium测试直接运行在浏览器中，就像真正的用户在操作一样。支持的浏览器包括IE(7、8、9)、Mozilla Firefox、Mozilla Suite等。这个工具的主要功能包括：测试与浏览器的兼容性——测试你的应用程序看是否能够很好得工作在不同浏览器和操作系统之上。测试系统功能——创建回归测试检验软件功能和用户需求。支持自动录制动作和自动生成 .Net、Java、Perl等不同语言的测试脚本。Selenium 是ThoughtWorks专门为Web应用程序编写的一个验收测试工具。其升级版本为Webdriver。<br>License：免费</p><p>3、Postman<br>官网：<a href="https://www.getpostman.com/">https://www.getpostman.com</a><br>接口测试<br>Postman 提供功能强大的 Web API 和 HTTP 请求的调试，它能够发送任何类型的HTTP 请求 (GET, POST, PUT, DELETE…)，并且能附带任何数量的参数和 Headers。不仅如此，它还提供测试数据和环境配置数据的导入导出，付费的 Post Cloud 用户还能够创建自己的 Team Library 用来团队协作式的测试，并能够将自己的测试收藏夹和用例数据分享给团队。<br>License：免费</p><p>4、Soapui<br>官网：<a href="https://www.soapui.org/">https://www.soapui.org</a><br>接口测试<br>SoapUI提供了所有所需的工具来测试和完善的测试。总览标签给你一个项目的所有内容和全面的看法。只需一次点击，您可以添加任何数量的断言为验证传入的消息TestStep。使用功能强大的HTTP监视器记录，分析甚至修改客户机 - 服务器通信，因为它发生。和SoapUI临带来了更专业和先进的功能，保持遥遥领先其他测试工具。轻松创建和运行数据驱动测试。该数据源TestStep读取测试数据从任何外部来源 - Excel中，XML，JDBC，文件，等等 - 到标准SoapUI属性。<br>License：免费</p><p>5、Robot Framework<br>官网：<a href="http://robotframework.org/">http://robotframework.org</a><br>WebUI自动化测试，接口测试，APP测试<br>Robot Framework是一款python编写的功能自动化测试框架。具备良好的可扩展性，支持关键字驱动，可以同时测试多种类型的客户端或者接口，可以进行分布式测试执行。主要用于轮次很多的验收测试和验收测试驱动开发。<br>Robot framework为不同的自动化测试需求提供了不同的框架。它的测试能力可以通过 Python 和 Java 测试库得到扩展。Selenium WebDriver 是 Robot Framework 中内置的流行库。<br>Robot Framework 不仅仅是网页测试工具，同样可以用来做 Android 和 iOS 的自动化测试。对于关键字测试驱动熟悉的测试员可以轻松上手 Robot Framework。<br>License：免费</p><p>6、QTP<br>官网：<a href="https://software.microfocus.com/en-us/products/unified-functional-automated-testing/overview">https://software.microfocus.com/en-us/products/unified-functional-automated-testing/overview</a><br>WebUI自动化测试，接口测试，APP测试<br>HP QuickTest Professional 提供符合所有主要应用软件环境的功能测试和回归测试的自动化。采用关键字驱动的理念以简化测试用例的创建和维护。它让用户可以直接录制屏幕上的操作流程，自动生成功能测试或者回归测试用例。专业的测试者也可以通过提供的内置脚本和调试环境来取得对测试和对象属性的完全控制。目前版本名为Unified Functional Testing，简称UFT。可以测试非常多的应用，比如接口API，Web services，桌面程序，Web系统，手机APP。<br>License：商业</p><p>7、Jmeter<br>官网：<a href="https://jmeter.apache.org/">https://jmeter.apache.org</a><br>接口测试，性能测试<br>JMeter是Apache组织的开放源代码项目，它是功能和性能测试的工具，100%的用java实现；<br>JMeter可以用于测试静态或者动态资源的性能（文件、Servlets、Perl脚本、java对象、数据库和查询、ftp服务器或者其他的资源）。JMeter用于模拟在服务器、网络或者其他对象上附加高负载以测试他们提供服务的受压能力，或者分析他们提供的服务在不同负载条件下的总性能情况。你可以用JMeter提供的图形化界面分析性能指标或者在高负载情况下测试服务器/脚本/对象的行为。<br>使用Jmeter做接口测试需要注意一点，小心使用“用户定义变量”，Jmeter组件有优先级的，如果多个线程同时执行的时候，“用户定义变量”组件定义的变量可能会乱套。<br>License：免费</p><p>8、Loadrunner<br>官网：<a href="https://software.microfocus.com/en-us/products/loadrunner-load-testing/overview">https://software.microfocus.com/en-us/products/loadrunner-load-testing/overview</a><br>性能测试<br>LoadRunner，是一种预测系统行为和性能的负载测试工具。通过以模拟上千万用户实施并发负载及实时性能监测的方式来确认和查找问题，LoadRunner能够对整个企业架构进行测试。企业使用LoadRunner能最大限度地缩短测试时间，优化性能和加速应用系统的发布周期。 LoadRunner可适用于各种体系架构的自动负载测试，能预测系统行为并评估系统性能。<br>License：商业</p><p>9、Monkey<br>App稳定性测试<br>软件附带在sdk中，适用于android和ios，通过adb shell，生成用户或系统的伪随机事件，压力测试结果：崩溃crash，无响应anr。<br>License：免费</p><p>10、GT<br>官网：<a href="http://gt.qq.com/index.html">http://gt.qq.com/index.html</a><br>App性能测试<br>GT（随身调）是APP的随身调测平台，它是直接运行在手机上的“集成调测环境”(IDTE, Integrated Debug Environment)。利用GT，仅凭一部手机，无需连接电脑，您即可对APP进行快速的性能测试(CPU、内存、流量、电量、帧率/流畅度等等)、开发日志的查看、Crash日志查看、网络数据包的抓取、APP内部参数的调试、真机代码耗时统计等。<br>License：免费</p><p>11、Appscan<br>官网：<a href="https://www.ibm.com/developerworks/downloads/r/appscan/">https://www.ibm.com/developerworks/downloads/r/appscan/</a><br>安全测试<br>IBM Security AppScan 是一个适合安全专家的 Web 应用程序和 Web 服务渗透测试解决方案，对现代 Web 应用程序和服务执行自动化的动态应用程序安全测试 (DAST) 和交互式应用程序安全测试 (IAST)，支持 Web 2.0、JavaScript 和 AJAX 框架的全面的 JavaScript 执行引擎，涵盖 XML 和 JSON 基础架构的 SOAP 和 REST Web 服务测试支持 WS-Security 标准、XML 加密和 XML 签名，详细的漏洞公告和修复建议。<br>License：免费</p><p>12、Jenkins<br>官网：<a href="https://jenkins.io/">https://jenkins.io</a><br>持续集成<br>自动化构建 编译，部署，任务执行，测试报告，邮件通知等。<br>License：免费</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试中常见web的漏洞</title>
+      <link href="2020/10/03/%E6%B5%8B%E8%AF%95%E4%B8%AD%E5%B8%B8%E8%A7%81web%E7%9A%84%E6%BC%8F%E6%B4%9E/"/>
+      <url>2020/10/03/%E6%B5%8B%E8%AF%95%E4%B8%AD%E5%B8%B8%E8%A7%81web%E7%9A%84%E6%BC%8F%E6%B4%9E/</url>
+      
+        <content type="html"><![CDATA[<p>1、SQL 注入</p><p>2、目录遍历</p><p>3、XSS漏洞攻击，也叫跨脚本漏洞</p><p>4、邮件轰炸</p><p>5、信息泄露</p><p>6、木马病毒</p><p>7、URL跳转</p><p>8、CELF注入</p><p>9、未授权访问</p><p>10、越权访问</p><p>11、暴力破解</p><p>12、口令入侵</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SQLMap常用的基础命令</title>
+      <link href="2020/09/26/SQLMap%E5%B8%B8%E7%94%A8%E7%9A%84%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/"/>
+      <url>2020/09/26/SQLMap%E5%B8%B8%E7%94%A8%E7%9A%84%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>1、sqlmap -u[“url”]–dbs（获取数据库）</p><p>2、sqlmap -u[“url]–db（获取数据库名称）</p><p>3、sqlmap -u[“url”]–current–user（获取数据库用户的名称）</p><p>4、sqlmap -u[“url”]–D（获取数据库名）–tables（列表名）</p><p>5、sqlmap -u[“url”]–D（获取数据库名）–T（表名）–columns（列出表名）</p><p>6、sqlmap -u[“url”]–D（获取数据库名）–T（表名）–C（列出字段名）–dump（列出字段内容）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>渗透工程师测试的流程步骤</title>
+      <link href="2020/09/18/%E6%B8%97%E9%80%8F%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%B5%8B%E8%AF%95%E7%9A%84%E6%B5%81%E7%A8%8B%E6%AD%A5%E9%AA%A4/"/>
+      <url>2020/09/18/%E6%B8%97%E9%80%8F%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%B5%8B%E8%AF%95%E7%9A%84%E6%B5%81%E7%A8%8B%E6%AD%A5%E9%AA%A4/</url>
+      
+        <content type="html"><![CDATA[<p>我们知道在从事网络信息安全的职业中渗透测试是一个非常重要的岗位，据国家就业办统计的数据中，渗透工程师的缺口是非常大的，如果我们要从事这份职业的话，我们必须要了解有关于渗透测试中需要注意的事项和流程步骤，下面的我呢给大家介绍一下测试过程中的一些步骤</p><p>1、明确目标：根据团队或个人确定好要测试的web（网站）、IP（主机）、域名、测试的账户、内网还是外网，测试是否能顺利完成，可能会遇到什么问题，测试过程中需要准备什么东西</p><p>2、信息收集：扫描哪些内容，扫描web就搜集相应的材料，比如邮件、IP、域名、主机、登录界面、工作后台等等</p><p>3、漏洞探测：搜集好信息时，我们就可以进行渗透了，渗透过程中我们会用到扫描器、抓包器，在这里能我给大家列举一下有哪些扫描器和抓包神器</p><p>扫描器：Nmap、APPScan、AWVS、OWASP ZAP、Nessus</p><p>抓包器：Fidder、wireshark、burpsuite</p><p>4、漏洞验证：当我们查找到一些漏洞时，此时需要去进行漏洞验证，看看存在有哪些漏洞，漏洞名称，受到哪些攻击</p><p>5、信息分析：对收集的漏洞、攻击进行分析，找到应对的方法</p><p>6、信息整理：对web漏洞、程序、攻击、测试过程方式方法进行汇总</p><p>7、渗透报告编写：最后呢对此次的测试做一个详细的报告，测试的目标，查找的漏洞以及修复复查过程进行描述</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OSI七层模型</title>
+      <link href="2020/09/11/OSI%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B/"/>
+      <url>2020/09/11/OSI%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<p>OSI七层模型从低到高：物理层、数据链层、网络层（ip）、传输层（TCP、UDP）、会话层、表示层、应用层（http、https）</p><p>七层模型，亦称OSI（Open System<br>Interconnection）。参考模型是国际标准化组织（ISO）制定的一个用于计算机或通信系统间互联的标准体系，一般称为OSI参考模型或七层模型</p><p>应用层<br>网络服务与最终用户的一个接口。<br>协议有：HTTP FTP TFTP SMTP SNMP DNS TELNET HTTPS POP3 DHCP</p><p>表示层<br>数据的表示、安全、压缩。（在五层模型里面已经合并到了应用层）<br>格式有，JPEG、ASCll、EBCDIC、加密格式等 [2]</p><p>会话层<br>建立、管理、终止会话。（在五层模型里面已经合并到了应用层）<br>对应主机进程，指本地主机与远程主机正在进行的会话</p><p>传输层<br>定义传输数据的协议端口号，以及流控和差错校验。<br>协议有：TCP UDP，数据包一旦离开网卡即进入网络传输层</p><p>网络层<br>进行逻辑地址寻址，实现不同网络之间的路径选择。<br>协议有：ICMP IGMP IP（IPV4 IPV6）</p><p>数据链路层<br>建立逻辑连接、进行硬件地址寻址、差错校验 [3] 等功能。（由底层网络定义协议）<br>将比特组合成字节进而组合成帧，用MAC地址访问介质，错误发现但不能纠正。</p><p>物理层<br>建立、维护、断开物理连接。（由底层网络定义协议）<br>TCP/IP 层级模型结构，应用层之间的协议通过逐级调用传输层（Transport layer）、网络层（Network Layer）和物理数据链路层（Physical Data Link）而可以实现应用层的应用程序通信互联。<br>应用层需要关心应用程序的逻辑细节，而不是数据在网络中的传输活动。应用层其下三层则处理真正的通信细节。在 Internet 整个发展过程中的所有思想和着重点都以一种称为 RFC（Request For Comments）的文档格式存在。针对每一种特定的 TCP/IP 应用，有相应的 RFC [4] 文档。<br>一些典型的 TCP/IP 应用有 FTP、Telnet、SMTP、SNTP、REXEC、TFTP、LPD、SNMP、NFS、INETD 等。RFC 使一些基本相同的 TCP/IP 应用程序实现了标准化，从而使得不同厂家开发的应用程序可以互相通信</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是网络安全？</title>
+      <link href="2020/09/05/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%EF%BC%9F/"/>
+      <url>2020/09/05/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>网络安全是指网络系统的硬件、软件及其系统中的数据受到保护，，不因偶然的或者恶意的原因而遭受到破坏、更改、泄露，系统连续可靠地运行，网络服务不中断。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站日志</title>
+      <link href="2020/09/01/%E7%BD%91%E7%AB%99%E6%97%A5%E5%BF%97/"/>
+      <url>2020/09/01/%E7%BD%91%E7%AB%99%E6%97%A5%E5%BF%97/</url>
+      
+        <content type="html"><![CDATA[<p>网站日志指的是网站服务器接受请求以及运行时的错误原始信息，文件是以log结尾，它是记录被访问请求和运行程序的数据。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java编辑器IDEA背景透明度设置</title>
+      <link href="2020/08/28/Java%E7%BC%96%E8%BE%91%E5%99%A8IDEA%E8%83%8C%E6%99%AF%E9%80%8F%E6%98%8E%E5%BA%A6%E8%AE%BE%E7%BD%AE/"/>
+      <url>2020/08/28/Java%E7%BC%96%E8%BE%91%E5%99%A8IDEA%E8%83%8C%E6%99%AF%E9%80%8F%E6%98%8E%E5%BA%A6%E8%AE%BE%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p>1、Java编辑器IDEA怎么把背景设置成透明  首先File，然后点击setting<br>2、点击Background image，随后添加自己想要的图片，进行透明度设置就可以了</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python打印hello word并将它保存到html中</title>
+      <link href="2020/08/18/python%E6%89%93%E5%8D%B0hello-word%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BF%9D%E5%AD%98%E5%88%B0html%E4%B8%AD/"/>
+      <url>2020/08/18/python%E6%89%93%E5%8D%B0hello-word%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BF%9D%E5%AD%98%E5%88%B0html%E4%B8%AD/</url>
+      
+        <content type="html"><![CDATA[<p>python打印”hello word”并将它保存到html中，代码如下：</p><p>html = open(“文件名字.html”,”w”,encoding=”utf-8”)<br>print(“hello word”,file=html)<br>html.close()</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Word并将保存到Excel中</title>
+      <link href="2020/08/17/Word%E5%B9%B6%E5%B0%86%E4%BF%9D%E5%AD%98%E5%88%B0Excel%E4%B8%AD/"/>
+      <url>2020/08/17/Word%E5%B9%B6%E5%B0%86%E4%BF%9D%E5%AD%98%E5%88%B0Excel%E4%B8%AD/</url>
+      
+        <content type="html"><![CDATA[<p>python打印hello Word并将保存到Excel中，代码如下：</p><p>xls = open(“文件名字.xls”,”w”,encoding=”utf-8”)<br>print(“hello word”,file=xls)<br>xls.close()</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>打印hello world并将它保存到txt文档中</title>
+      <link href="2020/08/17/%E6%89%93%E5%8D%B0hello-world%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BF%9D%E5%AD%98%E5%88%B0txt%E6%96%87%E6%A1%A3%E4%B8%AD/"/>
+      <url>2020/08/17/%E6%89%93%E5%8D%B0hello-world%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BF%9D%E5%AD%98%E5%88%B0txt%E6%96%87%E6%A1%A3%E4%B8%AD/</url>
+      
+        <content type="html"><![CDATA[<p>打印”hello word”并将它保存到txt文档中，代码如下：</p><p>txt = open(“文本名字.txt”,”w”,encoding=”utf-8”)<br>print(“hello word”,file=txt)<br>txt.close()</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python能做什么</title>
+      <link href="2020/08/17/python%E8%83%BD%E5%81%9A%E4%BB%80%E4%B9%88/"/>
+      <url>2020/08/17/python%E8%83%BD%E5%81%9A%E4%BB%80%E4%B9%88/</url>
+      
+        <content type="html"><![CDATA[<p>python是当前的主流语言，受到很多程序员的喜欢，对于它能做什么呢，python呢是一门解释性的面向对象语言，python可以用来爬虫、数据挖掘、机器学习、图形可视化、网站开发等</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
