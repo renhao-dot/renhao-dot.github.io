@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="测试需求分析, 任浩的博客">
+    <meta name="keywords" content="逆向分析工具介绍, 任浩的博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>测试需求分析 | 任浩的博客</title>
+    <title>逆向分析工具介绍 | 任浩的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">测试需求分析</h1>
+                    <h1 class="description center-align post-title">逆向分析工具介绍</h1>
                 </div>
             </div>
         </div>
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-01-17
+                    2021-01-13
                 </div>
                 
 
@@ -464,7 +464,16 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>1、业务需求：关注系统是否满足正常业务<br>2、用户需求：关注系统是否满足用户的习惯要求<br>3、功能需求：关注系统的是否满足功能点的要求</p>
+                <p>逆向分析工具介绍，来看看逆向分析的工具有哪些？<br>逆向分析工具呢在二进制代码分析的过程中是必不可少的，这些软件分析工具包括以下：<br>1、系统监控工具<br>2、反汇编器<br>3、调试器<br>4、和反汇编译器</p>
+<p>系统监控工具用来监控，研究以及剖析<br>待逆向的程序，这是由于程序与外部世界的通信都要经过操作系统，系统监控工具可<br>以监控网络活动，文件访问，注册表访问等等一系列的软件运行活动。反汇编器足以<br>程序的可执行二进制代码为输入，生成包含整个或部分程序的汇编代码文本文件的程<br>序。</p>
+<p>反汇编是一个与处理器相关的过程，反汇编器一般支持多种CPU絮构，反汇编<br>器的工作过程比较简单，但优秀的反汇编器能更加准确识别二进制代码，提高逆向分<br>析效率。</p>
+<p>调试器是一种程序，它允许软件开发人员在程序运行的同时观察程序。它的<br>两个最基本特征是：断点设置和代码跟踪。断点允许用户选择程序中任意位置的某行<br>代码，一旦程序运行在这一行，它就指示调试器暂停程序的运行，并显示程序的当前<br>状态。代码跟踪允许用户在程序运行时跟踪它的执行，跟踪意味着程序每执行一条汇<br>编代码然后暂停，并允许用户观察甚至改变程序的状态。通过断点设置和代码跟踪，<br>用户可以在程序执行到有问题的代码的同时仔细地观察代码，并确定问韪的所在。</p>
+<p>反编译器的功能要比反汇编器更进一步，反编泽器接受可执行的二进制文件，并试图从<br>中生成可读性好的高级程序语言代码。其思想是尝试逆向编译的过程，以获得最初的<br>源代码文件或接近最初源代码的文件 。然而对于人多数C，C++开发的程序而言，<br>真正恢复初始源文件是不太现实的。</p>
+<p>我们在逆向分析中运用了大量的辅助软件，这砦软件不仅仅在对FreeGate软件的<br>分析中有重要用途，同时也可以将其扩展，在建立一个通用分析方法中扮演不可或缺<br>的角色。<br>我们将分析工具分为五大类，以下工具均为运行在Windows下的软件。<br>(1)反汇编工具<br>反汇编工具是逆向分析中，最重要的工具，它不仅仅能够将可执行文件的．二进制代<br>码翻泽成汇编代码，同时还可以根据软件内部的互相调用关系分析软件的结构，识别</p>
+<p>软件的函数调用。反汇编工具在逆向分析中作为前期的处理者，能够极大的减少人工<br>工作。我们主要使用的反汇编工具有：</p>
+<p>Ollydbg l.10（自由软件，功能强大，结合静态反汇编与动态调试的分析器）<br>Win32Dasml （自由软件，静态分析工具）<br>IDA pr0 5.0 （商业软件，最强大的静态反汇编工具）<br>(2)动态调试工具<br>动态调试工具是人工逆向分析中所用到的主要工具，在经过反汇编工具的处理之<br>后，我们可以获得人量的软件信息，但是软件的行为和许多细节，必须在运行过程中<br>才能寻找出来，因此我们需要结合动态调试上具进行分析。我们主要使用的动态调试<br>工具有：<br>Ollydbg l.10（自由软件，功能强大，结合静态反汇编与动态调试的分析器）<br>Windbg 6.7【8】（免费软件，Microsoft公司的内核级调试工具）</p>
+<p>(3)软件信息识别和修改工具<br>软件信息识别和修改工具，是软件信息分析的重要辅助工具，通过这些工具灼帮<br>助我们能够方便的获取软件的内部资源信息，问时还可以修改一砦细节，方便调试。<br>我们常州的软件信息识别和修改工具有：<br>Hedit l.0（共享软件，16进制编辑器）<br>PEiD 0.94（免费较件，软件信息和编写语言分析工具）<br>(4)系统监视工具<br>作为黑箱分析的重要辅助手段，对于软件的各方面进行监视的工具是必不可少<br>的，我们将其分成网络监视，进程监视，文件监视和注册表监视网个方面：<br>Wireshark l.0 （免费软件，网络监视和包分析类软件）<br>Outpost Firewall 4.01 （共享软件，使用hook技术的Windows防火墙）<br>ProcExp 10.21 （免费软件，强人的进程分析软件）<br>FileMon 7.04 （免费软件，强大的文件读写监视软件）<br>RegMon 7.04 （免费软件，强大的注册表读写监视软件）<br>(5)专用反保护工具<br>LordPE （Win32 PE文件修改，转存工具）<br>ImportREC （Win32 PE文件结构修复软件）<br>AIl versions ASPack unpacker （免费软件，ASPack压缩壳脱壳工具）<br>UnPECompact2.02[19]（免费软件，PECompact压缩壳脱壳工具）<br>UPX 3.0[20]（自由软件，UPX压缩壳加壳和脱壳工具）</p>
+<p>此内容只做学习之用，切勿用于其它用途</p>
 
                 
             </div>
@@ -491,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://renhao-dot.github.io/blog/2021/01/17/%E6%B5%8B%E8%AF%95%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/">http://renhao-dot.github.io/blog/2021/01/17/%E6%B5%8B%E8%AF%95%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/</a>
+                    <a href="http://renhao-dot.github.io/blog/2021/01/13/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/">http://renhao-dot.github.io/blog/2021/01/13/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -702,13 +711,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/01/17/Linux%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E5%B7%A5%E5%85%B7flasm%E7%9A%84%E7%94%A8%E6%B3%95%E5%92%8C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+                <a href="/2021/01/14/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="kail Linux逆向工程工具flasm的用法和常用命令">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="测试用例有什么作用？">
                         
-                        <span class="card-title">kail Linux逆向工程工具flasm的用法和常用命令</span>
+                        <span class="card-title">测试用例有什么作用？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -719,7 +728,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-17
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-14
                         </span>
                         <span class="publish-author">
                             
@@ -739,13 +748,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/01/16/kail%E4%B8%AD%E7%9A%84%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E3%80%81%E9%80%86%E5%90%91%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/">
+                <a href="/2021/01/13/Java%E4%B8%AD%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="kail中的渗透测试、逆向分析工具">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Java中的内置对象">
                         
-                        <span class="card-title">kail中的渗透测试、逆向分析工具</span>
+                        <span class="card-title">Java中的内置对象</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -756,7 +765,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-13
                             </span>
                         <span class="publish-author">
                             
