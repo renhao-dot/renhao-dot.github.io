@@ -470,7 +470,7 @@
 <p>yum 仓库: yum repo，存储了众多rpm包，以及包的相关的元数据，文件（放置于特定目录repodata下）</p>
 <p>仓库文件服务器包括如下几种：</p>
 <p>http://        http  服务仓库<br>https://        https 服务仓库<br>ftp://          ftp  服务仓库<br>file://        本地  服务仓库<br>首先我们需要搭建本地服务器，</p>
-<p>1 首先在/mnt 目录下创建cdrom文件夹，并且将光盘挂载到此目录下：<br><img src="1/image.png"><br>2 在/etc/yum.repos.d/目录下创建一个名为test.repo的文件，文件后缀必须为.repo，在此文件中填入如图中的格式，完成后保存退出。<br><img src="1/image.png"><br><img src="1/image.png"><br>3. 配置好仓库文件后，可以进行软件安装测试，安装一个httpd 服务，出现如图中所示，则可以正常安装软件，说明本地YUM源仓库已将创建成功。<br><img src="1/image.png"><br><img src="1/image.png"><br>4.安装httpd服务，可以将已安装http服务的主机当做服务器，制作成其他主机的YUM仓库服务器，服务安装完成后需启动服务，并将服务设置成开机启动.<br><img src="1/image.png"><br>5. 输入ip a 命令查看本地网卡ens33的ip地址为192.168.168.133，打开浏览器，在浏览器中输入192.168.168.133 ，如果可以打开如下图的网页，则说明ftp服务启动成功（如显示打开失败，则输入iptables -F 清除防火墙规则，清除后即可打开）。<br><img src="1/image.png"><br><img src="1/image.png"><br>6.在http服务的家目录下创建相关yum源的目录，并将光盘挂载到此目录下，在浏览器地址栏中输入<a target="_blank" rel="noopener" href="http://192.168.168.133/centos/">http://192.168.168.133/centos/</a> ，就可以看见创建的文件夹及挂载的光盘。<br><img src="1/image.png"><br><img src="1/image.png"><br>7.重新开启一台新的centos7 系统，在新开的系统中配置好YUM仓库的客户端，服务地址指向YUM服务器地址，其中$releasever 和$basearch为两个变量，防止yum服务器中的版本号改变导致yum客户端无法正常访问服务器。<br><img src="1/image.png"><br><img src="1/image.png"><br>8 .配置完成后可以安装软件测试YUM仓库是否可以正常连接。到此yum仓库就已经创建完毕。<br><img src="1/image.png"><br><img src="1/image.png"></p>
+<p>1 首先在/mnt 目录下创建cdrom文件夹，并且将光盘挂载到此目录下：<br><img src="1.png"><br>2 在/etc/yum.repos.d/目录下创建一个名为test.repo的文件，文件后缀必须为.repo，在此文件中填入如图中的格式，完成后保存退出。<br><img src="2.png"><br><img src="3.png"><br>3. 配置好仓库文件后，可以进行软件安装测试，安装一个httpd 服务，出现如图中所示，则可以正常安装软件，说明本地YUM源仓库已将创建成功。<br><img src="4.png"><br><img src="5.png"><br>4.安装httpd服务，可以将已安装http服务的主机当做服务器，制作成其他主机的YUM仓库服务器，服务安装完成后需启动服务，并将服务设置成开机启动.<br><img src="5.png"><br>5. 输入ip a 命令查看本地网卡ens33的ip地址为192.168.168.133，打开浏览器，在浏览器中输入192.168.168.133 ，如果可以打开如下图的网页，则说明ftp服务启动成功（如显示打开失败，则输入iptables -F 清除防火墙规则，清除后即可打开）。<br><img src="6.png"><br><img src="7.png"><br>6.在http服务的家目录下创建相关yum源的目录，并将光盘挂载到此目录下，在浏览器地址栏中输入<a target="_blank" rel="noopener" href="http://192.168.168.133/centos/">http://192.168.168.133/centos/</a> ，就可以看见创建的文件夹及挂载的光盘。<br><img src="8.png"><br><img src="9.png"><br>7.重新开启一台新的centos7 系统，在新开的系统中配置好YUM仓库的客户端，服务地址指向YUM服务器地址，其中$releasever 和$basearch为两个变量，防止yum服务器中的版本号改变导致yum客户端无法正常访问服务器。<br><img src="10.png"><br><img src="11.png"><br>8 .配置完成后可以安装软件测试YUM仓库是否可以正常连接。到此yum仓库就已经创建完毕。<br><img src="12.png"><br><img src="13.png"></p>
 
                 
             </div>
@@ -704,11 +704,12 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/05/12/jumpserver%E5%A0%A1%E5%9E%92%E6%9C%BA%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE/">
+                <a href="/2021/05/12/linux%E4%B8%AD%E6%90%AD%E5%BB%BAyum%E4%BB%93%E5%BA%93/">
                     <div class="card-image">
                         
                         
@@ -724,9 +725,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -735,6 +736,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
