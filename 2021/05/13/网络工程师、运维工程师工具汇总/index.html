@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="局域网攻击的常见方法, 任浩的博客">
+    <meta name="keywords" content="网络工程师、运维工程师工具汇总, 任浩的博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>局域网攻击的常见方法 | 任浩的博客</title>
+    <title>网络工程师、运维工程师工具汇总 | 任浩的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">局域网攻击的常见方法</h1>
+                    <h1 class="description center-align post-title">网络工程师、运维工程师工具汇总</h1>
                 </div>
             </div>
         </div>
@@ -464,8 +464,34 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在我们介绍接下来的局域网实战之前，还得说说arp协议，因为接下来的几个局域网攻击手段跟arp协议有很大关系。<br>ARP协议<br>一台主机和另一台主机通信，要知道目标的IP地址，但是在局域网中传输数据的网卡却不能直接识别IP地址，所以用ARP解析协议将IP地址解析成MAC地址。ARP协议的基本功能就是通过目标设备的IP地址，来查询目标设备的mac地址。<br>在局域网的任意一台主机中，都有一个ARP缓存表，里面保存本机已知的此局域网中各主机和路由器的IP地址和MAC地址的对照关系。ARP缓存表的生命周期是有时限的（一般不超过20分钟）。<br>举个例子：假设局域网中有四台主机<br>ARP欺骗攻击建立在局域网主机间相互信任的基础上的当A发广播询问：我想知道IP是192.168.0.3的硬件地址是多少？<br>此时B当然会回话：我是IP192.168.0.3我的硬件地址是mac-b，可是此时IP地址是192.168.0.4的C也非法回了：我是IP192.168.0.3,我的硬件地址是mac-c。而且是大量的。<br>所以A就会误信192.168.0.3的硬件地址是mac-c，而且动态更新缓存表这样主机C就劫持了主机A发送给主机B的数据，这就是ARP欺骗的过程。<br>假如C直接冒充网关，此时主机C会不停的发送ARP欺骗广播，大声说：我的ＩＰ是192.168.0.1，我的硬件地址是ｍａｃ－ｃ，此时局域网内所有主机都被欺骗，更改自己的缓存表，此时Ｃ将会监听到整个局域网发送给互联网的数据报。<br>我们接下来的攻击过程将由在一个局域网内的两个主机来演示，一个是bt5的10.10.10.128，一个是kali的10.10.10.138。局域网网关为10.10.10.254.<br>局域网断网攻击<br>在一个局域网中，我们如果要对某个主机进行断网攻击的话，我们先要查看局域网中的ip。<br>fping –asg 10.10.10.0/24<br><img src="1.jpg"><br>发现了两个主机，一个是10.10.10.128，一个是10.10.10.138。<br>对10.10.10.128这台主机的上网情况进行测试，开始攻击之前是能上网的。<br><img src="2.jpg"><br>然后，我们要查看这个局域网中的网关是多少。<br><img src="3.jpg"><br>然后，我们要查看这个局域网中的网关是多少。<br><img src="4.jpg"><br>在10.10.10.128里我们可以看到，在我们进行断网攻击之后，果真断网了。<br><img src="5.jpg"><br>获取局域网中目标的图片浏览记录<br>这里抓取目标的图片浏览记录和断网攻击都是利用了arp协议，两个存在一定的相同点。<br>首先，先在10.10.10.138上设置网络转发。目标受欺骗后会将流量发到你的主机上，以你的主机为中转站传至网关。<br><img src="6.jpg"><br>然后还是接着arp欺骗。<br>接下来就是获取本机网卡的图片。<br><img src="7.jpg"><br>（从eth0网卡中抓取图片包）<br>好，下面就是实际检验效果的时候了。<br><img src="8.jpg"><br>我们在主机中成功获取了目标主机在浏览的图片。<br>综合应用之http账号密码截取<br>http账号密码截取是在前面的基础上的延伸。<br>开始我们还是跟前面一样设置网卡转发以及arp欺骗。接着我们就进行http环境下的网络账号密码嗅探。<br><img src="9.jpg"><br>（从网络流量中抓取账号密码，-T是以文本模式显示，q是以安静模式）<br>做完这些，我们来检验成果。<br>10.10.10.128进行登录。<br><img src="10.jpg"><br><img src="11.jpg"><br>上面10.10.10.128刚一登陆，这边我们就得到了账号及密码。<br>有些网站支持中文账号密码，这里我们截取的信息可能一下得到一些乱码，这里我们可以通过URL解码，得出中文的账号密码。<br>https账号密码获取<br>有证书认证和传输加密的https传输比http传输的安全性要强许多。我们这里获取https传输的账号密码的思路是将https换原为http传输，然后再进行http的账号密码抓取工作。<br>首先，将https传输转换为http传输。<br><img src="12.jpg"><br>再接着还是设置网卡转发、arp欺骗、网络抓包。这里和上面的http的基本差不多，就不再多说了。（有些浏览器的安全性比较高，可能会对我们的工作有所影响。）<br>会话劫持<br>局域网中的会话劫持有好几种方法，这里就只说一种简单粗暴的方法。那就是使用CookieCadger抓包。<br>首先哈，也没前面那么复杂。先把这个cookie cadger打开监听。Cookie cadger是一款用Java写的抓包工具，你在windows系统上也可以用它。<br><img src="13.jpg"><br>这里我们在10.10.10.128上登陆了百度贴吧和qq空间，我们可以在10.10.10.138的cookie cadger中打开10.10.10.128上的会话。<br><img src="14.jpg"><br>可以看到，根本就不需要登陆，我们也可以劫持局域网中他人的会话。<br>局域网中还有很多好玩的地方，它与外网相比更容易点，不过不要整蛊室友哦，不然被发现了会被室友追上十条街的&lt;(￣︶￣)&gt;。</p>
-<p><a target="_blank" rel="noopener" href="https://www.freebuf.com/articles/network/74700.html">https://www.freebuf.com/articles/network/74700.html</a></p>
+                <p>运维人员必须熟悉的运维工具汇总：</p>
+<p>Bootstrapping：Kickstart、Cobbler、rpmbuild/xen、kvm、lxc、Openstack、 Cloudstack、Opennebula、Eucalyplus、RHEV<br>配置类工具:Capistrano、Chef、puppet、func、salstack、Ansible、rundeck<br>监控类工具:Cacti、Nagios(Icinga)、Zabbix、基于时间监控前端Grafana、Mtop、MRTG(网络流量监控图形工具)、Monit<br>性能监控工具:dstat(多类型资源统计)、atop(htop/top)、nmon(类Unix系统性能监控)、slabtop(内核slab缓存信息)、sar(性能监控和瓶颈检查)、sysdig(系统进程高级视图)、tcpdump(网络抓包)、iftop(类似top的网络连接工具)、iperf(网络性能工具)、smem)(高级内存报表工具)、collectl(性能监控工具)<br>日志系统:Logstash、Scribe<br>绘图工具:RRDtool、Gnuplot<br>流控系统:Panabit、在线数据包分析工具Pcap Analyzer<br>安全检查:chrootkit、rkhunter<br>PaaS：Cloudify、Cloudfoundry、Openshift、Deis （Docker、CoreOS、Atomic、ubuntu core/Snappy）<br>Troubleshooting:Sysdig 、Systemtap、Perf<br>持续集成:Go、Jenkins、Gitlab<br>磁盘压测:fio、iozone、IOMeter(win)<br>MemcacheMcrouter(scalingmemcached)<br>RedisDynomite、Twemproxy<br>MySQL监控:mytop、orzdba、Percona-toolkit、Maatkit、innotop、myawr、SQL级监控mysqlpcap、拓扑可视化工具<br>MySQL基准测试:mysqlsla、sql-bench、Super Smack、Percona’s TPCC-MYSQL Tool、sysbench<br>MySQLProxy:SOHU-DBProxy、Altas、cobar<br>MySQL逻辑备份工具:mysqldump、mysqlhotcopy、mydumper、MySQLDumper 、mk-parallel-dump/mk-parallel-restore<br>MySQL物理备份工具:Xtrabackup、LVM Snapshot<br>MongoDB压测:iibench&amp;sysbench</p>
+<p>安全：fail2ban</p>
+<p>下面是在linux网站运维方向老男孩最近几年常用的免费的开源软件 </p>
+<p>操作系统：Centos※,Ubuntu,Redhat※,suse，Freebsd</p>
+<p>网站服务：nginx※,apache※,lighttpd,php※,tomcat※,resin※</p>
+<p>数据   库：MySQL※,Mysql-proxy,MariaDB，PostgreSQL</p>
+<p>代理相关：lvs,keepalived,haproxy,nginx,apache,heartbeat（此行都是※）</p>
+<p>网站缓存：squid※,nginx※,varnish</p>
+<p>NOSQL库：memcached※,memcachedb,TokyoTyrant※,MongoDB※,Cassandra※,redis※,CouchDB</p>
+<p>存储相关：Nfs※,Moosefs(mfs)※,Hadoop※,glusterfs※,lustre,FastDFS</p>
+<p>版本管理：svn※,git※</p>
+<p>监控报警：nagios※,cacti※,zabbix※,munin,hyperic,mrtg,graphite</p>
+<p>域名解析：bind※,powerdns,dnsmasq※</p>
+<p>同步软件：rsync※,inotify※,sersync※,drbd※,csync2,union,lsyncd,scp※</p>
+<p>批量管理：ssh+rsync+sersync※,Saltstack※,expect※,puppet※,ansible,cfengine</p>
+<p>虚拟   化：kvm※,xen※</p>
+<p>云计   算：openstack※,docker,cloudstack</p>
+<p>内网软件：iptables※,zebra※,iftraf,ntop※,tc※,iftop</p>
+<p>邮件软件：qmail,posfix※,sendmail</p>
+<p>远程拨号：open***※,pptp,openswan※,ipip※</p>
+<p>统一认证：openldap(可结合微软活动目录)※</p>
+<p>队列工具：ActiveMQ,RabbitMQ※,Metaq,MemcacheQ,Zeromq</p>
+<p>打包发布：mvn※,ants※,jenkins※,svn</p>
+<p>测试软件：ab,smokeping,siege,JMeter,Webbench,LoadRunner,http_load（都是※）</p>
+<p>日志相关：syslog,rsyslog,Awstats,flume logstash scribe kafka,storm，ELK(Elasticsearch+Logstash+Kibana)</p>
+<p>DB代理：mysql-proxy,amoeba（更多还是程序实现读写分离）</p>
+<p>搜索软件：Sphinx,Xapian（大公司会自己开发类似百度的小规模内部搜索引擎）</p>
 
                 
             </div>
@@ -492,7 +518,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://renhao-dot.github.io/blog/2021/05/13/%E5%B1%80%E5%9F%9F%E7%BD%91%E6%94%BB%E5%87%BB%E7%9A%84%E5%B8%B8%E8%A7%81%E6%96%B9%E6%B3%95/">http://renhao-dot.github.io/blog/2021/05/13/%E5%B1%80%E5%9F%9F%E7%BD%91%E6%94%BB%E5%87%BB%E7%9A%84%E5%B8%B8%E8%A7%81%E6%96%B9%E6%B3%95/</a>
+                    <a href="http://renhao-dot.github.io/blog/2021/05/13/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%81%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B7%A5%E5%85%B7%E6%B1%87%E6%80%BB/">http://renhao-dot.github.io/blog/2021/05/13/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%81%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B7%A5%E5%85%B7%E6%B1%87%E6%80%BB/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -699,17 +725,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/05/13/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/">
+                <a href="/2021/05/13/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88%E3%80%81%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B7%A5%E5%85%B7%E6%B1%87%E6%80%BB/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="网络基础知识汇总">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="网络工程师、运维工程师工具汇总">
                         
-                        <span class="card-title">网络基础知识汇总</span>
+                        <span class="card-title">网络工程师、运维工程师工具汇总</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -719,9 +746,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-13
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-13
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -730,6 +757,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -740,13 +768,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/13/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%90%84%E7%A7%8D%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/">
+                <a href="/2021/05/13/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="渗透测试各种扫描工具集合">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="网络基础知识汇总">
                         
-                        <span class="card-title">渗透测试各种扫描工具集合</span>
+                        <span class="card-title">网络基础知识汇总</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
