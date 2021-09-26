@@ -1,0 +1,1196 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="各大网络安全厂商及安全产品, 任浩的博客">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>各大网络安全厂商及安全产品 | 任浩的博客</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">任浩的博客</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">任浩的博客</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">各大网络安全厂商及安全产品</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-01-03
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>国内哪些公司在做企业版安全产品开发？</p>
+<p>问题太大了，做企业版安全产品的N多，有硬件设备、有软件、也有做SAAS在线服务的。</p>
+<p>国外的一些安全软件是否在中国只做代理销售，基本不会在国内开发？</p>
+<p>国外的安全软件除非个别的，基本在国内都有代理销售。</p>
+<p>有没有国外的安全软件开发公司在中国有分公司或办事处？规模比较大的国外安全公司很多在国内有办事处。</p>
+<p>这个是一个兄弟整理的安全产品厂商分类，找不到出处了。</p>
+<p>防火墙类（UTM&amp;FW&amp;NGFW）厂商<br>WAF（web 应用防火墙）厂商<br>数据库审计类厂家<br>运维审计厂商<br>网站安全厂商<br>邮件类安全厂商<br>身份鉴别厂家<br>防毒墙&amp;杀毒软件厂商<br>安全咨询类厂家<br>网闸安全厂家<br>等级保护评估系统<br>数据防泄漏（DLP）<br>漏洞扫描（主机&amp;web）<br>SOC（安全运维平台）&amp;SIEM（安全事件管理）<br>内网安全管理（含准入）<br>上网行为管理<br>远程接入安全（VPN）<br>入侵检测和防御（IDS&amp;IPS）<br>抗拒绝服务攻击（DDoS）<br>网页防篡改</p>
+<p>其他公司细分（跟游侠打过招呼了，感谢辛苦整理）:</p>
+<p>物理安全<br>存储介质信息消除/粉碎机：北信源、和升达、科密、30所、利谱、交大捷普、兰天致信、中超伟业、博智软件、方德信安、深圳汇远佳禾</p>
+<p>网络安全<br>防火墙/UTM/安全网关/下一代防火墙：天融信、山石网科、启明星辰、网御星云、绿盟科技、安恒信息、蓝盾、华为、软云神州、杭州迪普、华清信安、东软、上讯信息、利谱、深信服、360、卫士通、H3C、交大捷普、信安世纪、任子行、上海纽盾、金电网安、亚信安全、北京擎企、金山、君众甲匠、优炫、海峡信息、安信华、博智软件、中科曙光、中科网威、江民科技、六壬网安、安码科技、点点星光<br>入侵检测/防御：启明星辰、绿盟科技、网御星云、360、天融信、铱迅信息、蓝盾、杭州迪普、山石网科、安恒信息、交大捷普、任子行、经纬信安、漏洞盒子/网藤风险感知、华清信安、上海纽盾、东软、恒安嘉新、安天、金山、君众甲匠、海峡信息、博智软件、H3C、中科网威、江民科技、六壬网安、青藤云安全<br>无线入侵检测/防御：360、北京锐云通信、山东闻道通信<br>VPN：深信服、天融信、蓝盾、360、华为、绿盟科技、卫士通、信安世纪、奥联科技、启明星辰、南京易安联、华清信安、上海纽盾、东软、海峡信息、博智软件、H3C、江南信安、弘积科技、山东确信<br>上网行为管理：360、深信服、蓝盾、华为、莱克斯、网际思安、软云神州、杭州迪普、北信源、网鼎芯睿、陕通、上海新网程、奥联科技、交大捷普、任子行、上海纽盾、东软、Panabit、北京擎企、金山、盛世光明、博智软件、H3C、万网博通、极安、江民科技、迈科网络、六壬网安、弘积科技<br>网络安全审计：天融信、莱克斯、启明星辰、交大捷普、绿盟科技、蓝盾、广州国迈、软云神州、任子行、雨人、上海观安、上海纽盾、360、恒安嘉新、盛世光明、海峡信息、博智软件、杭州迪普、中科新业、重庆智多<br>网络流量控制：360、深信服、流控大师、Panabit、蓝盾、软云神州、网鼎芯睿、互普&amp;溢信（IP-Guard）、东华软件、上海纽盾、灵州网络、恒安嘉新、北京擎企、金山、盛世光明、杭州迪普、万网博通、极安、迈科网络<br>网络流量分析：科来公司、东华软件、绿盟科技、网鼎芯睿、上海观安、上海纽盾、恒安嘉新、Panabit、亚信安全、安天、江民科技、华青融天、迈科网络<br>防病毒网关/防毒墙：网御星云、蓝盾、冠群金辰、杭州迪普、瑞星、360、安恒信息、山石网科、亚信安全、安天、金山、天融信、海峡信息、安信华、博智软件、江民科技<br>APT未知威胁发现：安恒信息、科来公司、360、天融信、启明星辰、东巽科技、安天、绿盟科技、华为、神州网云、成都力合智远、经纬信安、兰云科技、中铁信睿安、卫达安全、恒安嘉新、宝利九章、亚信安全、安赛创想、金山、海峡信息、博智软件、知道创宇、江民科技、六壬网安<br>抗DDoS产品：绿盟科技、华为、中新网安、铱迅信息、启明星辰、傲盾、蓝盾、杭州迪普、华清信安、安恒信息、兰云科技、上海纽盾、卫达安全、任子行、青松云安全、天融信、360、北大千方、知道创宇、神荼科技<br>抗DDoS服务：阿里云、腾讯云、金山云、百度安全/安全宝、360、安恒信息、兰云科技、网宿科技、上海云盾、中新网安、卫达安全、安全狗、青松云安全、电信云堤、UCloud、智卓云盾、知道创宇、蓝盾<br>网闸：360、北京安盟、利谱、启明星辰、杭州合众、北京盖特佳、天融信、交大捷普、天行网安、伟思、金电网安、赛博兴安、东软、海峡信息、安信华、重庆爱思<br>安全隔离与信息单向导入设备/单向传输机器：深圳中锐源、中铁信安、中孚信息、杭州合众、国保金泰、天融信、赛博兴安、普世科技、锐安、金电网安、北京安盟、中科网威、山石网科、哈尔滨朗威、利谱、北京远为软件<br>网络缓存加速·产品：缓存大师WebCache、锐捷、优络普、Panabit、安信华<br>网络缓存加速·服务：知道创宇、阿里云、百度云、腾讯云、帝恩思、DNSPod<br>网络准入控制：北信源、无锡宝界、蓝盾、互普&amp;溢信（IP-Guard）、启明星辰、金盾软件、广州国迈、盈高科技、画方科技、联软、中软、上讯信息、交大捷普、信安世纪、中孚信息、上海纽盾、艾科网信、海峡信息、博智软件、江民科技、亚东软件<br>负载均衡：深信服、北京中科四方、东华软件、信安世纪、灵州网络、北京华夏创新、北京楷然昊天、上海云速、湖南麒麟、杭州迪普、启明星辰、南京易安联、上海纽盾、Panabit、北京擎企、H3C、弘积科技、北京远为软件、福建伊时代<br>应用交付：智恒科技、深信服、信安世纪、瑞友天翼、360、天融信、东软、任子行、优炫、中科曙光、弘积科技<br>加密机/密码机：江南科友、网御星云、天融信、三未信安、山东得安、卫士通、山东渔翁、无锡江南、江南天安、江南博仁、兴唐通信、中安网脉、君众甲匠、立思辰、江南信安、山东确信、信安世纪<br>DNS安全：电信云堤、厦门帝恩思、知道创宇<br>不良信息识别与监测：金惠科技</p>
+<p>主机安全<br>桌面管理/主机审计：北信源、汉邦、联软、蓝盾、互普&amp;溢信（IP-Guard）、启明星辰、网御星云、360、天融信、金盾软件、广州国迈、软云神州、哈尔滨朗威、上海创多、深圳金天眼、杭州正杰、浙江远望电子、北京盖特佳、峰盛科技、中软、卫士通、沈阳通软、圣博润、上讯信息、交大捷普、中孚信息、上海浩迈、金山、海峡信息、博智软件、江民科技、江南信安、山丽信息、亚东软件、706所、中电瑞铠<br>单机防病毒：瑞星、江民科技、金山、360、百度、腾讯、东方微点、费尔、火绒、亚信安全、安天、博智软件<br>网络防病毒：瑞星、360、金山、江民科技、东方微点、北信源、亚信安全、安天、博智软件<br>主机文档加密与权限控制/HDLP：亿赛通、天锐绿盾、时代亿信、明朝万达、蓝盾、互普&amp;溢信（IP-Guard）、北信源、金盾软件、启明星辰、北京盖特佳、峰盛科技、中软、卫士通、上海祥殷、上海前沿、杭州华途、江苏敏捷、思智泰克、交大捷普、中孚信息、福州深空、天融信、思睿嘉得、合力思腾、深圳虹安、上讯信息、成都力合智远、莱克斯、365数据安全/四川西图、山东申启、金山、天空卫士、锐思特、赛猊腾龙、海峡信息、深信达、博智软件、江民科技、天喻软件、上海谐桐、亚东软件、武汉百易时代<br>源代码加密及嵌入式开发源码加密：深信达、明朝万达、亿赛通、IP-Guard、山丽信息、天锐绿盾、互普&amp;溢信（IP-Guard）、中软、虹安<br>主机安全加固：浪潮、椒图、安全狗、广州国迈、中软华泰、上海观安、可信华泰、中嘉华诚、中航嘉信、易路平安、亚信安全、安天、优炫、安普诺、中超伟业、中科曙光、神荼科技、青藤云安全、安恒信息<br>终端登录/身份认证：上海格尔、吉大正元、卫士通、信安世纪、上讯信息、南京易安联、北信源、九州云腾、中孚信息、博智软件、哈尔滨朗威<br>移动存储介质管理：北信源、北京天桥、启明星辰、金盾软件、广州国迈、哈尔滨朗威、上海创多、亿赛通、交大捷普、上海浩迈、上海格尔、安天、金山、天喻软件、山丽信息、亚东软件<br>补丁管理：北信源、360、启明星辰、金盾软件、上海创多、交大捷普、亚信安全、金山<br>打印安全/打印管理/打印审计：北京恒安讯佳、北信源、中孚信息、安普锐、天锐绿盾、金山、保旺达、哈尔滨朗威、天喻软件、瑞达信息、山丽信息、武汉百易时代、鼎盾科技、思为同飞</p>
+<p>应用安全<br>网页防篡改：安恒信息、智恒科技、赛蓝、山东中创、绿盟科技、启明星辰、上海天存、上海天泰、福州深空、北京通元、国舜股份、蓝盾、安全狗、WebRay远江、杭州迪普、上讯信息、交大捷普、青松云安全、海峡信息、江民科技、立思辰、六壬网安<br>Web应用防火墙·WAF·硬件：安恒信息、启明星辰、绿盟科技、天融信、铱迅信息、知道创宇、上海天泰、杭州迪普、山东中创、WebRay远江、蓝盾、北京千来信安、中新网安、软云神州、中软华泰、上讯信息、上海天存、利谱、交大捷普、任子行、中铁信睿安、上海纽盾、360、卫达安全、金电网安、安赛创想、东软、海峡信息、安信华、博智软件、山石网科、江民科技、立思辰、六壬网安、安码科技、神荼科技<br>Web应用防火墙·WAF·软件：福州深空、安恒信息、铱迅信息、安全狗、云锁、青松云安全、上海天存、安码科技<br>Web应用防火墙·服务&amp;云WAF：安恒信息、阿里云、腾讯云、360、知道创宇、上海有云、湖盟、百度安全/安全宝、蓝盾、北京千来信安、中软华泰、上讯信息、快云、斗象科技/网藤风险感知、网宿科技、上海云盾、青松云安全、电信云堤、UCloud、数梦工场<br>WEB漏洞扫描：安恒信息、四叶草安全、国舜股份、绿盟科技、知道创宇、WebRay远江、安赛创想、安犬漏洞扫描云平台、启明星辰、经纬信安、上海观安、斗象科技/漏洞盒子/网藤风险感知、恒安嘉新、安识科技、H3C、六壬网安、安码科技<br>网站安全监测产品：安恒信息、绿盟科技、知道创宇、360、WebRay远江、任子行、四叶草安全、安全狗、恒安嘉新、安信华、H3C、江民科技、安普诺、立思辰、浙江乾冠<br>网站安全监测服务：安恒信息、绿盟科技、知道创宇、360、百度安全/安全宝、WebRay远江、北京千来信安、任子行、安全狗、恒安嘉新、四叶草安全、浙江乾冠<br>邮件安全产品：守内安、网际思安、蓝盾、敏讯、冠群金辰、盈世CoreMail、时代亿信、上海格尔、安宁、凌久、国瑞信安、蓝海星、北京方向标、上海青羽/靠谱邮件、亚信安全、安宁、安普诺、武汉百易时代<br>数据库漏洞扫描：安恒信息、安信通、安华金和、建恒信安、中安星云、杭州闪捷<br>数据库防火墙：安恒信息、安华金和、中安比特/中安威士、帕拉迪/汉领信息、杭州美创、中安星云、杭州闪捷<br>数据库加密和脱敏：中安比特/中安威士、安华金和、迈科龙、中安星云、杭州美创、上海观安、优炫、广州鼎甲、杭州闪捷<br>数据库审计：安恒信息、安华金和、思福迪、启明星辰、网御星云、天融信、极地银河、山东中创、蓝盾、北信源、莱克斯、软云神州、绿盟科技、上讯信息、中安比特/中安威士、交大捷普、金盾软件、昂楷科技、帕拉迪/汉领信息、上海纽盾、东软、杭州美创、优炫、海峡信息、安信华、博智软件、中安星云、东华软件、六壬网安、思为同飞、706所、杭州闪捷<br>半自动&amp;自动化渗透平台：安恒信息、安络科技、四叶草安全<br>应用统一身份管理/身份认证/单点登录/认证网关/PKI/CA/数字证书/令牌/各种KEY：天诚安信、派拉软件、神州融信、上海格尔、天威诚信、信安世纪、东软、吉大正元、安识科技、北京安讯奔、九州云腾、中科曙光、洋葱安全、极验验证、立思辰、江南信安、山东确信 | 各省都有CA，这个就单列了、中科恒伦、上海林果、福建伊时代<br>代码防火墙：上海观安<br>加密安全设备/NDLP：福建伊时代、时代亿信、365数据安全、天空卫士、思为同飞<br>反钓鱼/反欺诈：电信云堤、国舜股份、知道创宇、百度、阿里、腾讯、360、安天、亚信安全、安恒信息、江民科技、华青融天<br>语音安全：北京无限互联</p>
+<p>数据安全<br>数据备份：上海爱数、杭州美创、火星高科&amp;亚细亚智业、苏州美天网络、信核数据、上讯信息、英方股份、上海联鼎、亿备&amp;广州鼎鼎、和力记易、广州鼎甲、安码科技、南京壹进制、浪擎科技、福建伊时代<br>虚拟机备份与恢复：成都云祺、英方股份、和力记易、广州鼎甲、北京远为软件<br>数据清除工具：中孚信息、北京天桥、上海浩迈、万里红、中超伟业、博智软件、方德信安、哈尔滨朗威</p>
+<p>移动安全/虚拟化安全/云安全<br>虚拟化安全防护：安恒信息、启明星辰、广州国迈、北信源、中软、南京易安联、山石网科、阿姆瑞特、上海观安、东软、安全狗、云锁、亚信安全、金山、蓝盾、北京远为软件<br>手机防病毒：腾讯、瑞星、金山、360、网秦、百度、中软、安天、恒安嘉新、亚信安全、蓝盾<br>移动终端管理/EMM/MDM：国信灵通/启迪国信、北信源、360、明朝万达、中软、安天、上讯信息、北京珊瑚灵御、亚信安全、金山、蓝盾、江民科技、江南信安<br>CASB/云业务安全接入代理：炼石网络、云安宝、信云科技、绿盟科技、启明星辰<br>手机APP安全：梆梆安全、北京智游网安/爱加密、阿里聚安全、360、任子行、北京鼎源科技、腾讯御安全、恒安嘉新、安普诺、安码科技<br>基于云的安全服务：青松云安全、青藤云安全、百度云、腾讯云、阿里云、360、华为、安全宝、山石网科、万般上品、东软、卫达安全、白帽汇、海峡信息、四叶草安全、中国电信·安全帮 | 此条目待调整、待完善！<br>大数据安全：安恒信息、启明星辰、绿盟科技、360、派拉软件、观数科技、瀚思、天行网安、上海观安、聚铭网络、中孚信息、恒安嘉新、志翔科技、知道创宇、科来公司、安码科技、杭州美创 | 这是一个比较纠结的分类，因为牵扯到的内容太多……现在主流的安全厂家几乎都能做一部分，但是……这个分类可能近期会做细化</p>
+<p>安全管理<br>SIEM/日志管理/日志审计/SOC/安管平台：安恒信息、思福迪、360、天融信、启明星辰、东软、蓝盾、蚁巡、江南天安、北信源、上讯信息、赛克蓝德、神州泰岳、交大捷普、派拉软件、瀚思、中铁信睿安、聚铭网络、华清信安、上海纽盾、亚信安全、优炫、安信华、H3C、华青融天、安码科技、北京中安智达、706所、福建伊时代<br>运维审计/4A/堡垒机：安恒信息、思福迪、帕拉迪/汉领信息、浙江齐治、尚思科技、江南科友、绿盟科技、天融信、启明星辰、建恒信安、蓝盾、华为、泰然神州、上海艺赛旗、北京极地、信安世纪、圣博润、江南天安、国迈、上讯信息、神州泰岳、亿阳信通、麒麟、云安宝、交大捷普、德讯科技、任子行、派拉软件、上海观安、金盾软件、智恒科技、东软、金电网安、亚信安全、北京安讯奔、盛世光明、优炫、海峡信息、保旺达、安信华、中科曙光、六壬网安<br>网管软件/ITIL：广通信达、网强、汉远网智、北塔、蚁巡、华为、锐捷、摩卡[华胜天成]、国聿、上讯信息、交大捷普、飞思安诺/飞思网巡、恒安嘉新、优炫、艾科网信、海峡信息、迈科网络、东华软件<br>漏洞扫描与管理：安恒信息、榕基、启明星辰、绿盟科技、铱迅信息、极地银河、蓝盾、WebRay远江、江南天安、杭州迪普、天融信、交大捷普、安犬漏洞扫描云平台、经纬信安、上海观安、中铁信睿安、斗象科技/漏洞盒子/网藤风险感知、宿州东辉、四叶草安全、恒安嘉新、安天、蓝盾、君众甲匠、博智软件、中科网威、立思辰、六壬网安、安普诺<br>网络和主机配置核查系统：安恒信息、思福迪、绿盟科技、启明星辰、聚铭网络、北京随方信息、博智软件<br>主机安全保密检查工具：中孚信息、北信源、北京天桥、哈尔滨朗威、万里红、华安保、上海浩迈、博智软件、方德信安<br>信息安全等级保护测评工具箱：安恒信息、国瑞信安、圣博润、公安一所、锐安 | 注：市面上多家厂家均生产此产品，但公安部仅指定了5家作为“合格的”生产单位！<br>网络安全态势感知：安恒信息、知道创宇、360、绿盟科技、WebRay远江盛邦、四叶草安全、任子行、上海观安、兰云科技、聚铭网络、恒安嘉新、白帽汇、杭州合众、亚信安全、安天、郑州赛欧思、江民科技、科来公司、安码科技<br>应急处置工具箱：安恒信息</p>
+<p>工控安全产品与厂商大全<br>威努特、匡恩网络、谷神星、海天炜业、珠海鸿瑞、力控华康、启明星辰、绿盟科技、中科网威、三零卫士、安恒信息、北京网藤科技、天地和兴、安恒信息……</p>
+<p>工控防火墙：中科网威、威努特、匡恩网络、谷神星、海天炜业、力控华康、天地和兴、安点科技、网藤科技、卫达安全、博智软件、九略智能<br>工控安全审计：威努特、天地和兴、匡恩网络、网藤科技、斗象科技/漏洞盒子/网藤风险感知、安点科技、博智软件、安恒信息、知道创宇、中科网威<br>工控漏洞扫描/挖掘：天地和兴、匡恩网络、网藤科技、斗象科技/漏洞盒子/网藤风险感知、博智软件、知道创宇<br>工控安管平台：**天地和兴、匡恩网络、中科网威<br>工控主机安全防护：天地和兴、网藤科技、安点科技、九略智能<br>工控入侵检测/威胁感知/入侵防御：安点科技、天地和兴、网藤科技、博智软件、科来公司、中科网威<br>工控网闸：安点科技、中科网威<br>工控防泄密：匡恩网络<br>工控检查工具箱：安恒信息、<br>工控蜜罐：匡恩网络、<br>工控攻防实验室：匡恩网络、网藤科技、博智软件<br>工控态势感知：安恒信息、博智软件、360、知道创宇、浙江乾冠、九略智能<br>中国自主可控网络安全产品与厂商</p>
+<p>数据来源于申威产业联盟、龙芯产业联盟、中关村可信计算产业联盟自主可信专委会；<br>就自主可控行业的特殊性而言，很多大厂商是作为特供产品进行市场宣传，而小厂商只作为品牌规划，并没有特殊宣传，在数据收集时可能会导致内容不全面；<br>对于名单中未涉及的厂商，可以单独联系， 告知欲添加的分类、公司名称（需在上述3个联盟中）；<br>感谢中关村可信联盟自主可信专委会相关工作人员整理！<br>防火墙：中科神威、天融信、网御星云、东软、中科曙光、蓝盾、中航鸿电、中船综合院、706所<br>入侵检测/防御：中科神威、网神、中科曙光、安恒信息 、绿盟科技、汉柏<br>漏洞扫描系统：中科神威、安恒信息 、绿盟科技<br>安全管理平台：启明星辰、中科神威、360<br>网闸/安全隔离与信息单向导入设备：国保金泰、中科神威、北京安盟、赛博兴安<br>加密机：江南天安<br>终端安全：北信源、江民科技<br>Web应用防火墙：上海天泰<br>堡垒机：建恒信安、江南寰宇<br>负载均衡：般固科技<br>防毒墙：江民科技<br>备份一体机：壹进制<br>网络流量分析：北京卓迅<br>网络准入控制：画方科技<br>存储：创新科、同有飞骥<br>未分类子类</p>
+<p>舆情监控：中国舆情网、优捷信达、乐思、红麦、中科点击、泰一舆情、探宝、拓尔思、本果、软云神州、西盈、任子行、网藤风险感知、南京快页数码、博智软件、北京中安智达<br>威胁情报：微步在线、上海观安、斗象科技/<a target="_blank" rel="noopener" href="http://freebuf.com/%E6%BC%8F%E6%B4%9E%E7%9B%92%E5%AD%90%E3%80%81%E6%81%92%E5%AE%89%E5%98%89%E6%96%B0%E3%80%81%E7%99%BD%E5%B8%BD%E6%B1%87%E3%80%81%E5%A4%A9%E9%99%85%E5%8F%8B%E7%9B%9F%E3%80%81%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E3%80%81360%E3%80%81%E5%AE%89%E6%81%92%E4%BF%A1%E6%81%AF">http://FreeBuf.com/漏洞盒子、恒安嘉新、白帽汇、天际友盟、知道创宇、360、安恒信息</a><br>国产操作系统：Deepin深度、RedFlag红旗、Kylin麒麟、NeoKylin中标麒麟、StartOS起点/雨林木风OS、凝思磐石安全操作系统、共创Linux、思普Linux<br>国产数据库：达梦数据库、东软OpenBASE、国信贝斯iBase、人大金仓KingBase、南大通用GBase<br>业务风控安全：锦佰安、指掌易、邦盛、岂安、行邑、同盾、通付盾<br>蜜罐：安恒信息、三零卫士、凌晨网络、绿盟科技、默安科技<br>安全硬件平台/工控机：新汉、阿普奇、盛博、集智达、英德斯、福升威尔、华北科技、艾宝、华北工控、研祥、祈飞、研华，立华，惠尔，智威智能<br>数据恢复：苏州美天网络、金山安全、易数科技、华客、飞客、众成、博智软件<br>数据库准入：杭州美创<br>数据库堡垒机：杭州美创<br>红黑电源滤波插座：保旺达、启航智通<br>电磁屏蔽柜：启航智通、信安邦<br>数字取证：美亚柏科、盘石软件<br>安全计算机：瑞达信息</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">任浩</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://renhao-dot.github.io/2021/01/03/%E5%90%84%E5%A4%A7%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81/">http://renhao-dot.github.io/2021/01/03/%E5%90%84%E5%A4%A7%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8E%82%E5%95%86%E5%8F%8A%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">任浩</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/01/05/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%E6%98%AF%E4%BB%80%E4%B9%88/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="测试用例是什么">
+                        
+                        <span class="card-title">测试用例是什么</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-05
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            任浩
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/01/02/java%E4%B8%AD%E7%9A%84%E5%8D%B1%E9%99%A9%E5%87%BD%E6%95%B0/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="java中的危险函数">
+                        
+                        <span class="card-title">java中的危险函数</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            任浩
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2021</span>
+            
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">任浩</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
