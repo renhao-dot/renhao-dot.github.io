@@ -16,22 +16,22 @@
   <meta name="HandheldFriendly" content="True" >
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta content="任浩的博客" name="application-name">
-  <meta content="任浩的博客" name="apple-mobile-web-app-title">
+  <meta content="任浩" name="application-name">
+  <meta content="任浩" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1633599201078" as="style">
+  <link rel="preload" href="/css/style.css?time=1633672973380" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- 页面元数据 -->
-  <title>xss跨脚本攻击原理、危害及修复建议 - 任浩的博客</title>
+  <title>xss跨脚本攻击原理、危害及修复建议 - 任浩</title>
   <meta name="keywords" content="null">
   <meta name="description" content="原理：xss攻击是指对web程序中恶意植入代码，对网页数据、浏览信息、登录操作进行记录，获取不法信息 危害： 1、钓鱼欺骗：最典型的就是利用目标网站的反射型跨站脚本漏洞将目标网站重定向到钓鱼网站，或者通过注入钓鱼JavaScript脚本以监控目标网站的表单输入，甚至攻击者基于DHTML技术发起更高级的钓鱼攻击。 2、网站挂马：跨站时，攻击者利用Iframe标签嵌入隐藏的恶意网站，将被攻击者定向到恶">
 <meta property="og:type" content="article">
 <meta property="og:title" content="xss跨脚本攻击原理、危害及修复建议">
 <meta property="og:url" content="http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/index.html">
-<meta property="og:site_name" content="任浩的博客">
+<meta property="og:site_name" content="任浩">
 <meta property="og:description" content="原理：xss攻击是指对web程序中恶意植入代码，对网页数据、浏览信息、登录操作进行记录，获取不法信息 危害： 1、钓鱼欺骗：最典型的就是利用目标网站的反射型跨站脚本漏洞将目标网站重定向到钓鱼网站，或者通过注入钓鱼JavaScript脚本以监控目标网站的表单输入，甚至攻击者基于DHTML技术发起更高级的钓鱼攻击。 2、网站挂马：跨站时，攻击者利用Iframe标签嵌入隐藏的恶意网站，将被攻击者定向到恶">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png">
@@ -1658,8 +1658,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1633599201078" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1633599201078"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1633672973380" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1633672973380"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2426,7 +2426,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="任浩的博客">
+    <meta itemprop="name" content="任浩">
   </span>
   
 
@@ -2450,7 +2450,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
   <a itemprop="url" class='author' href="/" rel="nofollow">
     " class="lazyload" data-srcset="" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==<img itemprop="image" src="" alt="This is a picture without description" >
-    <p itemprop="name">请设置文章作者</p>
+    <p itemprop="name">任浩</p>
   </a>
 </div>
 
@@ -2559,7 +2559,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/&title=xss跨脚本攻击原理、危害及修复建议 - 任浩的博客&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/&title=xss跨脚本攻击原理、危害及修复建议 - 任浩&summary="
           
           >
           
@@ -2571,7 +2571,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/&title=xss跨脚本攻击原理、危害及修复建议 - 任浩的博客&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/&title=xss跨脚本攻击原理、危害及修复建议 - 任浩&summary="
           
           >
           
@@ -2583,7 +2583,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/&title=xss跨脚本攻击原理、危害及修复建议 - 任浩的博客&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/&title=xss跨脚本攻击原理、危害及修复建议 - 任浩&summary="
           
           >
           
@@ -2831,8 +2831,8 @@ public class App{    public static void main(String[] args)    {        System.o
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1633599201078')
-      volantis.js('/js/message.js?time=1633599201078', () => {
+      volantis.css('/css/message.css?time=1633672973380')
+      volantis.js('/js/message.js?time=1633672973380', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2877,8 +2877,8 @@ public class App{    public static void main(String[] args)    {        System.o
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1633599201078')
-      volantis.js('/js/message.js?time=1633599201078', () => {
+      volantis.css('/css/message.css?time=1633672973380')
+      volantis.js('/js/message.js?time=1633672973380', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2937,8 +2937,8 @@ public class App{    public static void main(String[] args)    {        System.o
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1633599201078')
-      volantis.js('/js/message.js?time=1633599201078', () => {
+      volantis.css('/css/message.css?time=1633672973380')
+      volantis.js('/js/message.js?time=1633672973380', () => {
         hideMessage(done);
       });
     } else {
@@ -3156,7 +3156,7 @@ public class App{    public static void main(String[] args)    {        System.o
     
       volantis.APlayerController = {};
     
-    volantis.js('/js/rightMenu.js?time=1633599201078')
+    volantis.js('/js/rightMenu.js?time=1633672973380')
   </script>
 
 
@@ -3170,19 +3170,19 @@ public class App{    public static void main(String[] args)    {        System.o
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1633599201078")
+        volantis.js("/js/plugins/sites.js?time=1633672973380")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1633599201078")
+        volantis.js("/js/plugins/friends.js?time=1633672973380")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1633599201078")
+        volantis.js("/js/plugins/contributors.js?time=1633672973380")
       }
     
   };
@@ -3298,7 +3298,7 @@ public class App{    public static void main(String[] args)    {        System.o
 
 
 
-<script src="/js/app.js?time=1633599201078.js"></script>
+<script src="/js/app.js?time=1633672973380.js"></script>
 
 
 <!-- optional -->
@@ -3311,7 +3311,7 @@ public class App{    public static void main(String[] args)    {        System.o
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1633599201078");
+    return volantis.js("/js/search/hexo.js?time=1633672973380");
   }
 
   function loadSearchService() {
@@ -3558,7 +3558,7 @@ public class App{    public static void main(String[] args)    {        System.o
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"任浩的博客","url":"http://renhao-dot.github.io/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://renhao-dot.github.io/","name":"任浩的博客"}},{"@type":"ListItem","position":3,"item":{"@id":"http://renhao-dot.github.io/2020/11/04/xss跨脚本攻击原理、危害及修复建议/","name":"xss跨脚本攻击原理、危害及修复建议"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"xss跨脚本攻击原理、危害及修复建议","description":"","datePublished":"2020-11-04T03:58:20.000Z","dateModified":"2021-01-22T02:59:01.946Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/"},"author":{"@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/"},"publisher":{"@type":"Organization","name":"任浩的博客","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"任浩","url":"http://renhao-dot.github.io/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://renhao-dot.github.io/","name":"任浩"}},{"@type":"ListItem","position":3,"item":{"@id":"http://renhao-dot.github.io/2020/11/04/xss跨脚本攻击原理、危害及修复建议/","name":"xss跨脚本攻击原理、危害及修复建议"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"xss跨脚本攻击原理、危害及修复建议","description":"","datePublished":"2020-11-04T03:58:20.000Z","dateModified":"2021-01-22T02:59:01.946Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/"},"author":{"@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/"},"publisher":{"@type":"Organization","name":"任浩","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://renhao-dot.github.io/2020/11/04/xss%E8%B7%A8%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E3%80%81%E5%8D%B1%E5%AE%B3%E5%8F%8A%E4%BF%AE%E5%A4%8D%E5%BB%BA%E8%AE%AE/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 <!-- more -->
