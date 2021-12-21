@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://renhao-dot.github.io/2021/09/26/一些常用的网络协议及它的中文含义/"/>
+  <link rel="canonical" href="http://renhao-dot.github.io/2021/12/21/漏洞poc/"/>
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
@@ -20,23 +20,21 @@
   <meta content="任浩" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1635386786281" as="style">
+  <link rel="preload" href="/css/style.css?time=1640068319376" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- 页面元数据 -->
   <title>任浩</title>
   <meta name="keywords" content="null">
-  <meta name="description" content="title: 一些常用的网络协议及它的中文含义date: 2020-11-13 19:02:46tags:–IOT的中文含义：物联网 RFID的中文含义：射频识别技术 MEMS的中文含义：微机电系统 IC卡的中文含义：集成电路卡 TCP的中文含义：传输控制协议 MAC的中文含义：介质访问控制层 WSN的中文含义：无线传感网络 URI的中文含义：统一资源表示 HTTP的中文含义：超文本传送协议 F">
-<meta property="og:type" content="article">
+  <meta property="og:type" content="article">
 <meta property="og:title" content="任浩">
-<meta property="og:url" content="http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/index.html">
+<meta property="og:url" content="http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/index.html">
 <meta property="og:site_name" content="任浩">
-<meta property="og:description" content="title: 一些常用的网络协议及它的中文含义date: 2020-11-13 19:02:46tags:–IOT的中文含义：物联网 RFID的中文含义：射频识别技术 MEMS的中文含义：微机电系统 IC卡的中文含义：集成电路卡 TCP的中文含义：传输控制协议 MAC的中文含义：介质访问控制层 WSN的中文含义：无线传感网络 URI的中文含义：统一资源表示 HTTP的中文含义：超文本传送协议 F">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2021-09-26T06:43:25.368Z">
-<meta property="article:modified_time" content="2021-01-22T03:03:58.116Z">
+<meta property="article:published_time" content="2021-12-21T06:16:01.999Z">
+<meta property="article:modified_time" content="2021-06-24T08:08:13.858Z">
 <meta property="article:author" content="任浩">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png">
@@ -1658,8 +1656,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1635386786281" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1635386786281"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1640068319376" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1640068319376"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2424,7 +2422,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/">
+  <link itemprop="mainEntityOfPage" href="http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="任浩">
   </span>
@@ -2449,23 +2447,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <hr>
-<p>title: 一些常用的网络协议及它的中文含义<br>date: 2020-11-13 19:02:46<br>tags:<br>–<br>IOT的中文含义：物联网</p>
-<p>RFID的中文含义：射频识别技术</p>
-<p>MEMS的中文含义：微机电系统</p>
-<p>IC卡的中文含义：集成电路卡</p>
-<p>TCP的中文含义：传输控制协议</p>
-<p>MAC的中文含义：介质访问控制层</p>
-<p>WSN的中文含义：无线传感网络</p>
-<p>URI的中文含义：统一资源表示</p>
-<p>HTTP的中文含义：超文本传送协议</p>
-<p>FTP的中文含义：文件传输协议</p>
-<p>IP的中文含义：网络传输协议</p>
-<p>GIS的中文含义：地理信息系统</p>
-<p>GPS的中文含义：全球定位系统</p>
-<p>CPU的中文含义：中央处理器</p>
-<p>AI的中文含义：人工智能</p>
-
+    
 
   </div>
   
@@ -2484,7 +2466,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/>http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/</a></p>
+                <p>本文永久链接是：<a href=http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/>http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/</a></p>
               
             
           </blockquote>
@@ -2501,10 +2483,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2021-01-22T11:03:58+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2021-06-24T16:08:13+08:00">
   <a class='notlink' href="/" onclick="return false;" title="Click me!" >
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2021年1月22日</p>
+    <p>更新于：2021年6月24日</p>
   </a>
 </div>
 
@@ -2523,7 +2505,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/&title= - 任浩&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/&title= - 任浩&summary="
           
           >
           
@@ -2535,7 +2517,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/&title= - 任浩&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/&title= - 任浩&summary="
           
           >
           
@@ -2547,7 +2529,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/&title= - 任浩&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/&title= - 任浩&summary="
           
           >
           
@@ -2580,16 +2562,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/2021/09/26/%E6%BC%8F%E6%B4%9EPOC/'>
-          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i></p>
-          <p class='content'>
-</p>
+        <a class='prev' href='/2021/12/21/%E6%9C%8D%E5%8A%A1%E5%99%A8/'>
+          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>服务器</p>
+          <p class='content'>购买服务器厂商厂商有：阿里云、腾讯云、华为云、百度云域名购买厂商：万网、阿里云、腾讯云、华为云、百度云
+什么是服务器、什么是域名、什么是url？服务器就是一台远程电脑，域名就是电脑的身份代号，网...</p>
         </a>
       
       
-        <a class='next' href='/2021/06/10/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E/'>
-          <p class='title'>缓冲区溢出漏洞<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>溢出漏洞是一种计算机程序的可更正性缺陷。溢出漏洞的全名：缓冲区溢出漏洞。因为它是在程序执行的时候在缓冲区执行的错误代码，所以叫缓冲区溢出漏洞。缓冲溢出是最常见的内存错误之一，也是攻击者入侵系统时...</p>
+        <a class='next' href='/2021/12/21/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/'>
+          <p class='title'><i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>
+title: 一些常用的网络协议及它的中文含义date: 2020-11-13 19:02:46tags:–IOT的中文含义：物联网
+RFID的中文含义：射频识别技术
+MEMS的中文含义：微机...</p>
         </a>
       
     </div>
@@ -2605,7 +2590,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <article class="post white-box reveal shadow" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/index.html#comments">
     </span>
     <p ct><i class='fas fa-comments'></i> 评论</p>
     
@@ -2794,8 +2779,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1635386786281')
-      volantis.js('/js/message.js?time=1635386786281', () => {
+      volantis.css('/css/message.css?time=1640068319375')
+      volantis.js('/js/message.js?time=1640068319375', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2840,8 +2825,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1635386786281')
-      volantis.js('/js/message.js?time=1635386786281', () => {
+      volantis.css('/css/message.css?time=1640068319375')
+      volantis.js('/js/message.js?time=1640068319375', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2900,8 +2885,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1635386786281')
-      volantis.js('/js/message.js?time=1635386786281', () => {
+      volantis.css('/css/message.css?time=1640068319375')
+      volantis.js('/js/message.js?time=1640068319375', () => {
         hideMessage(done);
       });
     } else {
@@ -3119,7 +3104,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       volantis.APlayerController = {};
     
-    volantis.js('/js/rightMenu.js?time=1635386786281')
+    volantis.js('/js/rightMenu.js?time=1640068319375')
   </script>
 
 
@@ -3133,19 +3118,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1635386786281")
+        volantis.js("/js/plugins/sites.js?time=1640068319375")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1635386786281")
+        volantis.js("/js/plugins/friends.js?time=1640068319375")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1635386786281")
+        volantis.js("/js/plugins/contributors.js?time=1640068319375")
       }
     
   };
@@ -3261,7 +3246,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/js/app.js?time=1635386786281.js"></script>
+<script src="/js/app.js?time=1640068319376.js"></script>
 
 
 <!-- optional -->
@@ -3274,7 +3259,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1635386786281");
+    return volantis.js("/js/search/hexo.js?time=1640068319375");
   }
 
   function loadSearchService() {
@@ -3521,7 +3506,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"任浩","url":"http://renhao-dot.github.io/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://renhao-dot.github.io/","name":"任浩"}},{"@type":"ListItem","position":3,"item":{"@id":"http://renhao-dot.github.io/2021/09/26/一些常用的网络协议及它的中文含义/","name":""}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"","description":"","datePublished":"2021-09-26T06:43:25.368Z","dateModified":"2021-01-22T03:03:58.116Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/"},"author":{"@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/"},"publisher":{"@type":"Organization","name":"任浩","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://renhao-dot.github.io/2021/09/26/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%AE%83%E7%9A%84%E4%B8%AD%E6%96%87%E5%90%AB%E4%B9%89/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"任浩","url":"http://renhao-dot.github.io/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://renhao-dot.github.io/","name":"任浩"}},{"@type":"ListItem","position":3,"item":{"@id":"http://renhao-dot.github.io/2021/12/21/漏洞POC/","name":""}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"","description":"","datePublished":"2021-12-21T06:16:01.999Z","dateModified":"2021-06-24T08:08:13.858Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/"},"author":{"@type":"Person","name":"任浩","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://renhao-dot.github.io/"},"publisher":{"@type":"Organization","name":"任浩","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://renhao-dot.github.io/2021/12/21/%E6%BC%8F%E6%B4%9EPOC/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 <!-- more -->
